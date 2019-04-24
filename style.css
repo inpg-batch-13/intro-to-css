@@ -40,6 +40,10 @@ body {
   border-width: 1px;
   border-style: solid; */
   border: 1px solid black;
+
+  width: 200px;
+  /* block, inline-block, inline, none */
+  display: inline-block;
 }
 
 .judul {
