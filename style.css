@@ -78,3 +78,7 @@ body {
 .emoji img {
   width: 40px;
 }
+
+.emoji img:hover {
+  transform: scale(1,2) skew(-30deg);
+}
