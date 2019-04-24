@@ -3,7 +3,6 @@
 /* tag selector */
 body {
   background-color: gold;
-  color: green;
   padding: 50px;
 }
 
@@ -24,4 +23,29 @@ body {
 
 .style-b {
   font-size: 13px;
+}
+
+.kartu {
+  background-color: white;
+  padding: 10px 5px;
+  padding-left: 20px;
+  margin: 15px;
+  /* border-color: black;
+  border-width: 1px;
+  border-style: solid; */
+  border: 1px solid black;
+}
+
+.judul {
+  text-align: center;
+  color: blue;
+}
+
+.kartu h1.judul {
+  color: grey;
+  font-size: 25px;
+}
+
+.kartu h1.special {
+  color: deeppink;
 }
