@@ -31,6 +31,18 @@ body {
   font-size: 13px;
 }
 
+@keyframes kartu-padding {
+  0% {
+    padding: 0;
+  }
+  50% {
+    padding: 5px;
+  }
+  100% {
+    padding: 20px;
+  }
+}
+
 .kartu {
   background-color: white;
   padding: 10px 5px;
@@ -44,6 +56,12 @@ body {
   width: 200px;
   /* block, inline-block, inline, none */
   display: inline-block;
+  /* transition: padding 1s; */
+}
+
+.kartu:hover {
+  animation: kartu-padding 1s forwards;
+  /* padding: 30px; */
 }
 
 .judul {
@@ -77,6 +95,7 @@ body {
 
 .emoji img {
   width: 40px;
+  transition: all 1s;
 }
 
 .emoji img:hover {
