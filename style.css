@@ -1,0 +1,27 @@
+/* ini comment */
+
+/* tag selector */
+body {
+  background-color: gold;
+  color: green;
+  padding: 50px;
+}
+
+/* id selector */
+#hello-css {
+  color: red;
+}
+
+#hello-html {
+  color: slateblue;
+}
+
+/* class selector */
+.style-a {
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px;
+}
+
+.style-b {
+  font-size: 13px;
+}
