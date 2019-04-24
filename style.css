@@ -59,3 +59,9 @@ body {
 .kartu h1.special {
   color: deeppink;
 }
+
+.card-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
